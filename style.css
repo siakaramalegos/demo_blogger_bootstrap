@@ -13,4 +13,25 @@
   #highlighted-btn:active {
     background-color: #085394; }
 
+.post {
+  border: 1px solid #ccc;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .post h1 {
+    font-size: 2em; }
+  .post .col-centered {
+    float: none;
+    margin: 0 auto; }
+    .post .col-centered .date-wrapper {
+      color: #ccc;
+      margin: 20px 0; }
+  .post .comment-links-wrapper {
+    margin: 20px 0;
+    font-size: 14px; }
+  .post .view-comments {
+    float: left; }
+  .post .write-comment {
+    float: right; }
+
 /*# sourceMappingURL=style.css.map */
