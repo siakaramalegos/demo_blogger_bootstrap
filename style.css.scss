@@ -1,3 +1,27 @@
-body {
-  color: red;
+// Bootstrap Colors
+$brand-primary: #428bca;
+
+
+.logo-container {
+  img {
+    width: 40px;
+    height: 40px;
+    margin-top: 4px;
+    vertical-align: middle;
+  }
+}
+
+#highlighted-btn {
+  background-color: $brand-primary;
+  a {
+    color: white;
+
+    &:hover {
+      color: #eee;
+    }
+  }
+
+  &:active {
+    background-color: #085394;
+  }
 }
